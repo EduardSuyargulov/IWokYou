@@ -195,12 +195,12 @@ p{
     font-size: 16px;
     font-family: 'PT Sans', sans-serif; 
     border-radius: 5px;
-    width: 100%;
+    width: 55%;
     padding: 15px 0;
+    margin-bottom: 3%;
 /*    margin-right: 21px;*/
     border:0;
     outline: none;
-
 }
 .title__text {
     text-align: center;
@@ -214,7 +214,7 @@ p{
   font-size: 16px;
   font-weight: 700;
   border-radius: 5px;
-  width: 25%;
+  width: 55%;
   border: 0;
   padding: 15px 0;
   cursor: pointer;
@@ -271,7 +271,7 @@ background: #000;
     }
     .button {
         margin-top: 20px;
-        width: 100%;
+/*        width: 100%;*/
     }
     .title__text {
         width: auto;
