@@ -1,0 +1,8 @@
+@media screen and (max-width: 576px) {
+	.my-slides {
+	    background-repeat: no-repeat;
+	    background-size: 250% ; 
+	    padding-bottom: 105px; 
+	    background-position: center;  
+	}	
+}

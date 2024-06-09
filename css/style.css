@@ -1,0 +1,304 @@
+/*Осн.стили для всех блоков*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    color: #FFF;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5{
+    font-weight: 700;
+    color: #000;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+}
+
+p{
+    color: #D3D3D3;
+/*    font-size: 20px;*/
+}  
+
+
+/* 1 экран */
+
+.my-slides {
+    background-repeat: no-repeat;
+    background-size: 100% ; 
+    padding-bottom: 105px;    
+}
+
+#first-slide {
+    background-image: url(https://kartinkin.net/uploads/posts/2021-08/1627873471_51-kartinkin-com-p-yaichnaya-lapsha-vok-yeda-krasivo-foto-63.jpg);
+}
+
+#second-slide {
+    background-image: url("../img/second-slide.jpg");
+}
+
+.overlay{
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    left: 0;
+    background: rgba(244, 244, 244, 0.43);
+}
+
+
+.menu {
+    margin-top:8px;
+}
+
+.menu__item {
+    margin: 0 57px;
+}
+
+.menu__item a {
+    font-size:22px;
+    font-weight:700;
+    color: #000;
+}
+
+.offer {
+    margin-top: 117px;
+
+}
+
+.offer__title {
+    font-size:32px;
+    margin-bottom: 15px;
+}
+
+.offer_intro {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.3em;
+    color: #000;
+}
+
+.offer__text {
+    font-size: 18px;
+    margin-top:15px;
+    color: #000;
+    width: 400px;
+/*    text-shadow: white 2px 3px 4px;*/
+}
+
+#header_text {
+    font-weight: bold;
+}
+
+.icons__item {
+    margin-right:30px;
+}
+
+.icons__item a {
+    color: #000;
+    font-size: 42px;
+    transition: all 0.3s ease; /* плавная анимация*/
+}
+
+.icons__item a:hover {
+    text-decoration: none;
+    color: #ff4800;
+}  /* анимация при наведении на иконки*/
+
+
+.navbar {
+	background: #000;
+}
+
+.navbar-collapse{
+/*	justify-content: center;*/
+}
+
+.nav-link:hover, .nav-link:active {
+    color: #FFF;
+}
+
+.primer1 { 
+	color: #FFF;
+}
+
+
+/*Осн.стили для всех блоков*/
+
+.title {
+	padding-top: 100px;  /*отступ сверху*/
+	padding-bottom: 70px ;
+}
+
+.title_main {
+	font-size: 32px;
+	text-align: center;
+}
+
+.title_text {
+	font-size: 20px;
+    text-align: center;
+}
+
+.icons__item a:hover {
+    text-decoration: none;
+    color: #ff4800;
+}  /* анимация при наведении на иконки*/
+
+.caption {
+    color: black;
+}
+
+/* 2 экран*/
+
+.feature {
+    margin-bottom: 65px;
+}
+
+.feature__icon {
+    font-size: 50px;
+    margin-right: 37px;
+    color: #000
+}
+
+.feature__text {
+    color: #898989
+}
+
+
+/*Экран 3*/
+
+.feedback {
+
+    background:#000;
+    color: #fff;
+}
+
+.blue{
+
+    color:#95d9fb;
+}
+
+.form_input{
+    background:#fff;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif; 
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 0;
+/*    margin-right: 21px;*/
+    border:0;
+    outline: none;
+
+}
+.title__text {
+    text-align: center;
+}
+
+.button {
+  font-family: 'PT Sans', sans-serif; 
+  background:#e0413b;
+  color: #000;
+  text-transform:  uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  width: 25%;
+  border: 0;
+  padding: 15px 0;
+  cursor: pointer;
+}
+/*
+.card-img-top{
+    height: 500px;
+    width: 500px;
+}
+*/
+.footer {
+
+background: #000;
+
+}
+
+.footer_info {
+    color: #fff;
+    font-size: 10pt;
+    text-align: center;
+/*    width: 184px;*/
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer_end {
+    padding: 50px 0 94px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .offer {
+        text-align: center;
+    }
+    .offer__text {
+        margin: 20px auto;
+        width: auto;
+    }
+    .icons {
+        justify-content: center;
+    }
+    .icons__item:nth-child(3) {
+        margin-right: 0;
+    }
+    .form__input {
+        margin-right:0;
+        width: 100%;
+    }
+    .button {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .title__text {
+        width: auto;
+    }
+}
+
+#cards {
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614541836_2-p-fon-belii-mramor-2.jpg);
+/*    background-color: yellow;*/
+/*    margin-right: 50px;*/
+}
+
+.emoji {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.socialmedia {
+    fill: white;
+    height: 30px;
+    width: 30px;
+}
+
+.location{
+    fill: white;
+    height: 20px;
+    width: 20px;
+}
+
